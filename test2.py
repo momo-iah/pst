@@ -1,0 +1,11 @@
+x, y, z = input().split()
+a, b, c = input().split()
+x=int(x)
+y=int(y)
+z=float(z)
+a=int(x)
+b=int(b)
+c=float(c)
+Q = (y*z)+(b*c)
+
+print('VALOR A PAGAR: R$',"%.2f" % Q)
